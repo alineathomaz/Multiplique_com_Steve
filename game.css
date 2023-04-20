@@ -1,0 +1,59 @@
+body
+{
+	background-image: url(steve.jpeg);
+	background-size: cover;
+	height: 10px;
+	border: 2px;
+	min-height: 10vh;
+    max-width:100%;
+    display: grid;
+    margin-left:55%; 	
+}
+
+.login_div1 , .login_div2
+{
+	background: rgb(85, 231, 217);
+	padding: 40px;
+	float: none;
+	border-radius: 15px;
+	margin: 20px;
+}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#word
+{
+	width: 60%;
+}
+
+#word_display
+{
+	letter-spacing: 5px;
+}
+
+#output
+{
+background: rgb(181, 171, 171);
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+h1
+{
+	color: rgb(114, 242, 199);
+}
+
+.container
+{
+    width: 100%;
+	text-align: center;
+	max-width:100%;
+}
